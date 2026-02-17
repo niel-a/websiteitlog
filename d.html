@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery</title>
+</head>
+<body>
+    <header>
+        <center>
+            <img src="https://via.placeholder.com/400x100/FFD700/000000?text=Sweet+Delights+Bakery" alt="Sweet Delights Bakery Logo" width="400" height="100">
+            <pre>
+   ___            _        _     _ _       _          __        _ _     _ _ 
+  / ___|          | |      | |   () |     | |        |  _ \      (_) |   | | |
+ | (_   _ _ _ | |
+_ _| |_  | |
+__| |_   __| |) |_   _ _| | __| | |
+  \___ \ / _ \ '_ \| __/ _ | '_ \| | __/ _ \ '_ \ / _ \  _ <| | | | | |/ _ | |
+  __) |  _/ | | | || (_| | | | | | ||  __/ |) |  _/ |) | |_| | | | (_| |_|
+ |_____/ \___|_| |_|\__\__,_|_| |_|_|\__\___|_.__/ \___|____/ \__,_|_|_|\__,_(_)
+            </pre>
+            <nav>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <td><a href="#home"><strong>Home</strong></a></td>
+                        <td><a href="#products"><strong>Products</strong></a></td>
+                        <td><a href="#about"><strong>About Us</strong></a></td>
+                        <td><a href="#contact"><strong>Contact</strong></a></td>
+                    </tr>
+                </table>
+            </nav>
+        </center>
+        <hr>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Sweet Delights Bakery</h2>
+        <center>
+            <img src="https://via.placeholder.com/600x300/FF69B4/FFFFFF?text=Fresh+Pastries" alt="Fresh Pastries Display" width="600" height="300">
+        </center>
+        <p><em>Indulge in our freshly baked pastries, made with love and the finest ingredients. Browse our selection and place your order today!</em></p>
+        <p><strong>Free delivery on orders over $50.</strong></p>
+        <!-- Minimal ad: just one small banner -->
+        <p><small><u>Ad: Try our new chocolate croissants - 20% off this week!</u></small></p>
+        <hr>
+    </section>
+
+    <section id="products">
+        <h2>Our Pastry Products</h2>
+        <p>Select your favorites and fill out the order form below.</p>
+        
+        <center>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <h3>Chocolate Croissant</h3>
+                        <img src="https://via.placeholder.com/300x200/8B4513/FFFFFF?text=Chocolate+Croissant" alt="Chocolate Croissant" width="300" height="200">
+                        <p>Flaky pastry filled with rich chocolate. <strong>Price: $4.50</strong></p>
+                        <form action="mailto:orders@sweetdelights.com" method="post" enctype="text/plain">
+                            <label for="quantity1"><strong>Quantity:</strong></label>
+                            <input type="number" id="quantity1" name="quantity" min="1" value="0">
+                            <input type="hidden" name="product" value="Chocolate Croissant">
+                            <input type="submit" value="Add to Cart">
+                        </form>
+                    </td>
+                    <td>
+                        <h3>Blueberry Muffins (Pack of 6)</h3>
+                        <img src="https://via.placeholder.com/300x200/4169E1/FFFFFF?text=Blueberry+Muffins" alt="Blueberry Muffins" width="300" height="200">
+                        <p>Moist muffins bursting with blueberries. <strong>Price: $12.00</strong></p>
+                        <form action="mailto:orders@sweetdelights.com" method="post" enctype="text/plain">
+                            <label for="quantity2"><strong>Quantity:</strong></label>
+                            <input type="number" id="quantity2" name="quantity" min="1" value="1">
+                            <input type="hidden" name="product" value="Blueberry Muffins (Pack of 6)">
+                            <input type="submit" value="Add to Cart">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Strawberry Tart</h3>
+                        <img src="https://via.placeholder.com/300x200/DC143C/FFFFFF?text=Strawberry+Tart" alt="Strawberry Tart" width="300" height="200">
+                        <p>Buttery crust topped with fresh strawberries and custard. <strong>Price: $8.00</strong></p>
+                        <form action="mailto:orders@sweetdelights.com" method="post" enctype="text/plain">
+                            <label for="quantity3"><strong>Quantity:</strong></label>
+                            <input type="number" id="quantity3" name="quantity" min="1" value="1">
+                            <input type="hidden" name="product" value="Strawberry Tart">
+                            <input type="submit" value="Add to Cart">
+                        </form>
+                    </td>
+                    <td>
+                        <h3>Cinnamon Rolls (Pack of 4)</h3>
+                        <img src="https://via.placeholder.com/300x200/D2691E/FFFFFF?text=Cinnamon+Rolls" alt="Cinnamon Rolls" width="300" height="200">
+                        <p>Soft, gooey rolls with cinnamon swirl. <strong>Price: $10.00</strong></p>
+                        <form action="mailto:orders@sweetdelights.com" method="post" enctype="text/plain">
+                            <label for="quantity4"><strong>Quantity:</strong></label>
+                            <input type="number" id="quantity4" name="quantity" min="1" value="1">
+                            <input type="hidden" name="product" value="Cinnamon Rolls (Pack of 4)">
+                            <input type="submit" value="Add to Cart">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        
+        <p><em>Note: Clicking "Add to Cart" will open your email client to send the order. For a real website, this would integrate with a backend system.</em></p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <center>
+            <img src="https://via.placeholder.com/400x250/32CD32/FFFFFF?text=Bakery+Interior" alt="Bakery Interior" width="400" height="250">
+        </center>
+        <p><em>Sweet Delights Bakery has been serving the community with artisanal pastries since 2010. Our bakers use traditional recipes and high-quality ingredients to create treats that bring joy to every bite.</em></p>
+        <p><strong>Visit us at 123 Bakery Lane, Sweet Town, or call (555) 123-4567.</strong></p>
+        <hr>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <center>
+            <img src="https://via.placeholder.com/300x200/FF6347/FFFFFF?text=Contact+Us" alt="Contact Us Illustration" width="300" height="200">
+        </center>
+        <p>Have questions? Reach out!</p>
+        <form action="mailto:info@sweetdelights.com" method="post" enctype="text/plain">
+            <label for="name"><strong>Name:</strong></label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email"><strong>Email:</strong></label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message"><strong>Message:</strong></label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+        <hr>
+    </section>
+
+    <footer>
+        <p><center>&copy; 2023 Sweet Delights Bakery. All rights reserved.</center></p>
+    </footer>
+</body>
+</html>
